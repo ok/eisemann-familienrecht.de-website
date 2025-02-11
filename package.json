@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
-    "@11ty/eleventy-plugin-markdown": "^2.0.0",
+    "@jgarber/eleventy-plugin-markdown": "^2.0.0",
     "@fullhuman/postcss-purgecss": "^7.0.2",
     "autoprefixer": "^10.4.20",
     "bulma": "^1.0.3",
