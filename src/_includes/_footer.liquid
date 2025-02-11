@@ -1,6 +1,12 @@
     <footer class="footer">
       <div class="columns">
-        <div class="column is-narrow has-text-centered-mobile">
+        <div class="column has-text-left">
+          <figure>
+            <img src="/img/logo.png" alt="" class="image">
+          </figure>
+          <p class="pt-5">Schöne Scheidung</p>
+        </div>
+        <div class="column has-text-left">
           <p class="title">Links</p>
           <ul>
           {%- for item in navigation.nav_items %}
@@ -12,14 +18,15 @@
           {%- endfor %}
           </ul>  
         </div>
-        <div class="column has-text-left has-text-centered-mobile">
-          <p class="title">Kontakt</p>
-          <a href="{{ site.instaUrl }}" target="_blank" class="icon mr-2" aria-label="Connect with Eisemann Familienrechtskanzlei on Instagram">
-            {% include "svg/instagram.svg" %}
-          </a>
-          <a href="{{ site.linkedinUrl }}" target="_blank" class="icon" aria-label="Connect with Eisemann Familienrechtskanzlei on LinkedIn">
-            {% include "svg/linkedin-in.svg" %}
-          </a>
+        <div class="column has-text-left">
+          <p class="title ">Kontakt</p>
+          <ul>
+            <li>{{ contact.name }}</li>
+            <li>{{ contact.street }}</li>
+            <li>{{ contact.plz }} {{ contact.city }}</li>
+            <li>{{ contact.phone }}</li>
+            <li>{{ contact.email }}</li>
+          </ul>
         </div>
       </div>
     </footer>

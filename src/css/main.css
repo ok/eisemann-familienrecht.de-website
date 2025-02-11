@@ -2,11 +2,11 @@
   --eise_brand_color: #d22630;
   --eise_secondary_color: #f8f6f4;
   --eise_dark_color: #0f0f0c;
-  --eise_grey_color: #24221f;
+  --eise_darkgrey_color: #24221f;
+  --eise_lightgrey_color: #84827f;
   
   --bulma-primary: var(--eise_brand_color);
   --bulma-body-color: var(--eise_dark_color);
-  --bulma-primary: var(--eise_brand_color);
   --bulma-navbar-burger-color: var(--eise_dark_color);
 }
 
@@ -56,6 +56,19 @@ div.canvas{
 
 .footer {
   background-color: var(--eise_dark_color);
-  color: var(--eise_secondary_color);
+  color: var(--eise_lightgrey_color);
   padding: 2rem;
+}
+
+.footer p.title {
+  color: var(--eise_secondary_color);
+}
+
+.footer a {
+  padding: 5px 0px;
+}
+
+.footer img {
+  max-height: 3rem !important;
+  padding-right: 2rem;
 }

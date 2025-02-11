@@ -74,6 +74,15 @@ function processPages(pages) {
   return filteredPages;
 };
 
+// Post processing for contact info block
+function processContact(contact) {
+  console.log(`✅ Processing contact info!`);
+  return Object.keys(contact.fields).reduce((acc, key) => {
+    acc[key] = contact.fields[key]["en-US"]; // Extract only the value, ignoring the locale
+    return acc;
+  }, {});
+};
+
 async function main() {
   const pages = await fetchContent("webpage");
   await storeContent(pages, "cf-webpage");
@@ -82,8 +91,10 @@ async function main() {
   await storeContent(filteredPages, "webpages");
   
   const contact = await fetchContent("contactBlock");
-  await storeContent(contact, "contactBlock");
-  console.log("contactBlock: " + contact)
+  await storeContent(contact, "cf-contact");
+  const filteredContact = processContact(contact[0]);
+  await storeContent(filteredContact, "contact");
+  console.log("contact: " + filteredContact)
 }
 
 main();
