@@ -18,8 +18,7 @@ div.canvas{
 @media only screen and (max-width: 750px) {
   div.canvas {
       margin: 0 auto;
-      padding: 20px;
-      padding-top: 30px;
+      padding: 0px;
       box-shadow: 0;
   }
 }
@@ -33,14 +32,8 @@ div.canvas{
   }
 }
 
-.navbar {
-  height: 7rem !important; /* Adjust to your brand image height */
-  display: flex;
-  align-items: center; /* Ensure vertical centering */
-}
-
 .navbar-brand img {
-  max-height: 4rem !important; /* Adjust to match navbar height */
+  max-height: 3rem !important; /* Adjust to match navbar height */
   padding-right: 2rem;
 }
 

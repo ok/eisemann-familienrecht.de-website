@@ -2,13 +2,19 @@
 layout: base.liquid
 title: Eisemann Familienrechtskanzlei
 ---
+  <main class="content main">
     <section class="content">
       <p class="is-size-4">Debug</p>
     </section>
 
     <section class="content">
       <div class="container">
-        <p>cf-collection:</p>
-        <code>{{ cf-collections | json }}</code>
+        <h3>cf-webpage</h3>
+        <code>{{ cf-webpage | json }}</code>
+      </div>
+      <div class="container">
+        <h3>cf-contact</h3>
+        <code>{{ cf-contact | json }}</code>
       </div>
     </section>
+  </main>

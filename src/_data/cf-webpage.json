@@ -243,7 +243,7 @@
               "id": "2KxnVz3Ciogh3SBz91wcRk",
               "type": "Entry",
               "createdAt": "2025-02-10T17:17:12.041Z",
-              "updatedAt": "2025-02-10T17:17:12.041Z",
+              "updatedAt": "2025-02-11T22:04:39.745Z",
               "environment": {
                 "sys": {
                   "id": "master",
@@ -251,8 +251,8 @@
                   "linkType": "Environment"
                 }
               },
-              "publishedVersion": 16,
-              "revision": 1,
+              "publishedVersion": 23,
+              "revision": 2,
               "contentType": {
                 "sys": {
                   "type": "Link",
@@ -266,7 +266,7 @@
                 "en-US": "Kanzlei Text"
               },
               "text": {
-                "de": "# Die Kanzlei Eisemann\nSeit Jahren bin ich ausschließlich auf dem Gebiet des Familienrechts tätig. Mit meiner Fachkenntnis  und meiner Lebenserfahrung  setze ich mich für Ihre familienrechtlichen Anliegen ein.\n\nKaum ein anderes Rechtsgebiet greift so in den persönlichen Bereich der Betroffenen ein, wie das Familienrecht. Neben der oftmals emotional sehr belastenden Situation, tauchen tiefgreifende Fragen über die weitere Entwicklung und oftmals finanzielle Sorgen und Existenzängste auf.\n\nIn dieser Situation setze ich mich für Sie und ihr Wohlergehen ein. Dabei lege ich großen Wert auf eine vertrauensvolle Zusammenarbeit und die zielführende Durchsetzung Ihrer rechtlichen Interessen.\n\n## Ihr Vorteil:\n– Spezialisierung und ausschließliche Tätigkeit im Familienrecht.\n– Expertise in alle Bereichen des Familienrechts\n– Regelmäßige Fortbildungen im Familienrecht\n– schnelle Erstberatung, in Notfällen auch samstags\n– Einfühlungsvermögen und Verständnis für Ihre Situation\n– Solide Entscheidungshilfen für Ihre nächsten Schritte",
+                "de": "# Die Kanzlei Eisemann\nSeit Jahren bin ich ausschließlich auf dem Gebiet des Familienrechts tätig. Mit meiner Fachkenntnis  und meiner Lebenserfahrung  setze ich mich für Ihre familienrechtlichen Anliegen ein.\n\nKaum ein anderes Rechtsgebiet greift so in den persönlichen Bereich der Betroffenen ein, wie das Familienrecht. Neben der oftmals emotional sehr belastenden Situation, tauchen tiefgreifende Fragen über die weitere Entwicklung und oftmals finanzielle Sorgen und Existenzängste auf.\n\nIn dieser Situation setze ich mich für Sie und ihr Wohlergehen ein. Dabei lege ich großen Wert auf eine vertrauensvolle Zusammenarbeit und die zielführende Durchsetzung Ihrer rechtlichen Interessen.\n\n## Ihr Vorteil:\n- Spezialisierung und ausschließliche Tätigkeit im Familienrecht.\n- Expertise in alle Bereichen des Familienrechts\n- Regelmäßige Fortbildungen im Familienrecht\n- Schnelle Erstberatung, in Notfällen auch samstags\n- Einfühlungsvermögen und Verständnis für Ihre Situation\n- Solide Entscheidungshilfen für Ihre nächsten Schritte",
                 "en-US": "# Law Firm Eisemann\n\nFor years, I have been exclusively practicing in the field of family law. With my expertise and life experience, I am committed to addressing your family law concerns.\n\nFew areas of law have such a profound impact on the personal lives of those affected as family law. In addition to often emotionally challenging situations, deep-rooted questions about the future arise, along with financial worries and fears about one’s livelihood. In these moments, I advocate for you and your well-being. I place great importance on a trusting collaboration and the effective enforcement of your legal interests.\n\n## Your Advantage:\n- Specialization and exclusive focus on family law\n- Expertise in all areas of family law\n- Regular professional training in family law\n- Fast initial consultation, including emergency appointments on Saturdays\n- Empathy and understanding for your situation\n- Solid guidance for your next steps\n\nFeel free to reach out if you need legal support in family law matters."
               }
             }
