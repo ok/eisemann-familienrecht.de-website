@@ -1,0 +1,19 @@
+{
+  "title": {
+    "de": "Kontakt",
+    "en-US": "Contact"
+  },
+  "slug": "contact",
+  "content": [
+    {
+      "title": {
+        "en-US": "Kontakt Text"
+      },
+      "type": "largeTextBlock",
+      "text": {
+        "de": "Kontaktieren sie mich",
+        "en-US": "Contact me"
+      }
+    }
+  ]
+}

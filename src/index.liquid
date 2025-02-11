@@ -1,7 +1,21 @@
 ---
-layout: base.liquid
-title: Website template
+  layout: base.liquid
+  title: Website template
+  locale: "de"
+  pagination:
+    data: page-home
+    size: 1
 ---
     <main class="content main">
-      <p class="is-size-5">Website template using Contentful, Bulma and Eleventy</p>
+      {% assign infoBlock = page-home.content | where: "type", "infoBlock" | first %}
+      {% if infoBlock %}
+      <section class="info-block">
+        {{ infoBlock.text.de | markdown }}
+      </section>
+      {% endif %}
+      <section class="large-text-block">
+        {% assign largeTextBlock = page-home.content | where: "type", "largeTextBlock" | first %}
+        {{ largeTextBlock.text.de | markdown }}
+        <img src="{{ largeTextBlock.image }}" alt="Large text block image">
+      </section>
     </main>

@@ -57,7 +57,7 @@ function processPages(pages) {
     // console.log(page);
     let filteredPage= {
       title: page.fields.title,
-      slug: page.fields.slug,
+      slug: page.fields.slug["en-US"],
       content: []
     };
     page.fields.contentBlocks?.["en-US"]?.forEach((entry) => {
@@ -86,9 +86,12 @@ function processContact(contact) {
 async function main() {
   const pages = await fetchContent("webpage");
   await storeContent(pages, "cf-webpage");
+  
   const filteredPages = processPages(pages);
+  filteredPages.forEach(async page => {
+    await storeContent(page, "page-" + page.slug);
+  })
   // console.log("web pages: " + JSON.strigify(filteredPages));
-  await storeContent(filteredPages, "webpages");
   
   const contact = await fetchContent("contactBlock");
   await storeContent(contact, "cf-contact");

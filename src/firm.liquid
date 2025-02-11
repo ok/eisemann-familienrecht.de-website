@@ -1,0 +1,17 @@
+---
+  layout: base.liquid
+  title: Website template
+  locale: "de"
+  pagination:
+    data: page-firm
+    size: 1
+---
+    <main class="content main">
+      {% assign largeTextBlock = page-firm.content | where: "type", "largeTextBlock" | first %}
+      <section class="large-text-block">
+        {{ largeTextBlock.text.de | markdown }}
+        {%- if largeTextBlock.image %}
+          <img src="{{ largeTextBlock.image }}" alt="Large text block image">
+        {% endif %}
+      </section>
+    </main>

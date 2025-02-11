@@ -4,9 +4,7 @@
       "de": "Kontakt",
       "en-US": "Contact"
     },
-    "slug": {
-      "en-US": "contact"
-    },
+    "slug": "contact",
     "content": [
       {
         "title": {
@@ -25,9 +23,7 @@
       "de": "Über Mich",
       "en-US": "About Me"
     },
-    "slug": {
-      "en-US": "about"
-    },
+    "slug": "about",
     "content": [
       {
         "title": {
@@ -47,9 +43,7 @@
       "de": "Kanzlei",
       "en-US": "Law Firm"
     },
-    "slug": {
-      "en-US": "firm"
-    },
+    "slug": "firm",
     "content": [
       {
         "title": {
@@ -68,9 +62,7 @@
       "de": "Startseite",
       "en-US": "Homepage"
     },
-    "slug": {
-      "en-US": "home"
-    },
+    "slug": "home",
     "content": [
       {
         "title": {
