@@ -1,0 +1,34 @@
+{
+  "nav_items": [
+    {
+      "title": "Home",
+      "url": "",
+      "header": true,
+      "type": "page"
+    },
+    {
+      "title": "Kanzlei",
+      "url": "firm",
+      "header": true,
+      "type": "page"
+    },
+    {
+      "title": "Leistungen",
+      "url": "services",
+      "header": true,
+      "type": "page"
+    },
+    {
+      "title": "Über mich",
+      "url": "about",
+      "header": true,
+      "type": "page"
+    },
+    {
+      "title": "Debug",
+      "url": "debug",
+      "header": true,
+      "type": "page"
+    }
+  ]
+}

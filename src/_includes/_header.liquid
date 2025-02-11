@@ -1,0 +1,36 @@
+    <header class="header">
+      <nav class="navbar pb-5" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="{{ site.domain }}">
+            <img src="/img/logo.png" alt="" class="image">  
+          {% comment %} <p class="is-2 is-size-3-touch title has-text-weight-bold is-uppercase">Eisemann Familienrechtskanzlei</p> {% endcomment %}
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div class="navbar-menu" id="navMenu">
+          <div class="navbar-start has-text-centered">
+          {%- for item in navigation.nav_items %}
+            {%- if item.header %}
+            <a href="/{{ item.url }}" class="navbar-item is-size-6 is-uppercase">{{ item.title }}</a>
+            {%- endif %}
+          {%- endfor %}
+          </div>
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-secondary is-rounded">
+                  <strong>Jetzt kontaktieren</strong>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>

@@ -1,0 +1,61 @@
+:root {
+  --eise_brand_color: #d22630;
+  --eise_secondary_color: #f8f6f4;
+  --eise_dark_color: #0f0f0c;
+  --eise_grey_color: #24221f;
+  
+  --bulma-primary: var(--eise_brand_color);
+  --bulma-body-color: var(--eise_dark_color);
+  --bulma-primary: var(--eise_brand_color);
+  --bulma-navbar-burger-color: var(--eise_dark_color);
+}
+
+div.canvas{
+  padding: 0px;
+  margin: 0px;
+}
+
+@media only screen and (max-width: 750px) {
+  div.canvas {
+      margin: 0 auto;
+      padding: 20px;
+      padding-top: 30px;
+      box-shadow: 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .navbar-menu {
+    box-shadow: none;
+    border: 1px;
+    border-color: var(--eise_dark_color);
+    padding-top: 20px;
+  }
+}
+
+.navbar {
+  height: 7rem !important; /* Adjust to your brand image height */
+  display: flex;
+  align-items: center; /* Ensure vertical centering */
+}
+
+.navbar-brand img {
+  max-height: 4rem !important; /* Adjust to match navbar height */
+  padding-right: 2rem;
+}
+
+.header {
+  color: var(--eise_dark_color);
+  padding: 2rem;
+}
+
+.main {
+  color: var(--eise_dark_color);
+  padding: 2rem;
+}
+
+.footer {
+  background-color: var(--eise_dark_color);
+  color: var(--eise_secondary_color);
+  padding: 2rem;
+}

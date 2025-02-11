@@ -1,0 +1,515 @@
+[
+  {
+    "metadata": {
+      "tags": [],
+      "concepts": []
+    },
+    "sys": {
+      "space": {
+        "sys": {
+          "type": "Link",
+          "linkType": "Space",
+          "id": "p0axvbayjz91"
+        }
+      },
+      "id": "6IUta3tqsTS7jX9kCK1X07",
+      "type": "Entry",
+      "createdAt": "2025-02-10T17:18:54.293Z",
+      "updatedAt": "2025-02-10T18:46:47.575Z",
+      "environment": {
+        "sys": {
+          "id": "master",
+          "type": "Link",
+          "linkType": "Environment"
+        }
+      },
+      "publishedVersion": 8,
+      "revision": 3,
+      "contentType": {
+        "sys": {
+          "type": "Link",
+          "linkType": "ContentType",
+          "id": "webpage"
+        }
+      }
+    },
+    "fields": {
+      "title": {
+        "de": "Kontakt",
+        "en-US": "Contact"
+      },
+      "slug": {
+        "en-US": "contact"
+      },
+      "contentBlocks": {
+        "en-US": [
+          {
+            "metadata": {
+              "tags": [],
+              "concepts": []
+            },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "p0axvbayjz91"
+                }
+              },
+              "id": "4UvZkeeHGx8prKyedD4KwF",
+              "type": "Entry",
+              "createdAt": "2025-02-10T17:17:12.008Z",
+              "updatedAt": "2025-02-10T17:17:12.008Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 6,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "largeTextBlock"
+                }
+              }
+            },
+            "fields": {
+              "title": {
+                "en-US": "Kontakt Text"
+              },
+              "text": {
+                "de": "Kontaktieren sie mich",
+                "en-US": "Contact me"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "metadata": {
+      "tags": [],
+      "concepts": []
+    },
+    "sys": {
+      "space": {
+        "sys": {
+          "type": "Link",
+          "linkType": "Space",
+          "id": "p0axvbayjz91"
+        }
+      },
+      "id": "68r6tTQZWZHpwZ27pF7gb1",
+      "type": "Entry",
+      "createdAt": "2025-02-10T17:18:54.263Z",
+      "updatedAt": "2025-02-10T18:46:34.586Z",
+      "environment": {
+        "sys": {
+          "id": "master",
+          "type": "Link",
+          "linkType": "Environment"
+        }
+      },
+      "publishedVersion": 8,
+      "revision": 3,
+      "contentType": {
+        "sys": {
+          "type": "Link",
+          "linkType": "ContentType",
+          "id": "webpage"
+        }
+      }
+    },
+    "fields": {
+      "title": {
+        "de": "Über Mich",
+        "en-US": "About Me"
+      },
+      "slug": {
+        "en-US": "about"
+      },
+      "contentBlocks": {
+        "en-US": [
+          {
+            "metadata": {
+              "tags": [],
+              "concepts": []
+            },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "p0axvbayjz91"
+                }
+              },
+              "id": "4HYBNGt4Fuw1Bv5Ct60gPx",
+              "type": "Entry",
+              "createdAt": "2025-02-10T17:17:12.024Z",
+              "updatedAt": "2025-02-10T18:59:55.496Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 19,
+              "revision": 2,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "largeTextBlock"
+                }
+              }
+            },
+            "fields": {
+              "title": {
+                "en-US": "Über Mich Text"
+              },
+              "image": {
+                "en-US": {
+                  "metadata": {
+                    "tags": [],
+                    "concepts": []
+                  },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "p0axvbayjz91"
+                      }
+                    },
+                    "id": "2uF7o9x6z5jMx5ypfbWTl8",
+                    "type": "Asset",
+                    "createdAt": "2025-02-10T17:16:50.514Z",
+                    "updatedAt": "2025-02-10T17:16:50.514Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 4,
+                    "revision": 1
+                  },
+                  "fields": {
+                    "title": {
+                      "en-US": "Julia Portait 2"
+                    },
+                    "file": {
+                      "en-US": {
+                        "url": "//images.ctfassets.net/p0axvbayjz91/2uF7o9x6z5jMx5ypfbWTl8/958f59340354337e2ddf33b07b6f5f2c/IMG_6462_b-2636-scaled-qlomamatyxbj7pkcsiydypukne72qdibzrtykji8o0.jpg",
+                        "details": {
+                          "size": 18510,
+                          "image": {
+                            "width": 630,
+                            "height": 560
+                          }
+                        },
+                        "fileName": "IMG_6462_b-2636-scaled-qlomamatyxbj7pkcsiydypukne72qdibzrtykji8o0.jpg",
+                        "contentType": "image/jpeg"
+                      }
+                    }
+                  }
+                }
+              },
+              "text": {
+                "de": "## Anwältin für Familienrecht\n# Julia Eisemann\nIch bin mit Passion und Motivation ausschließlich auf dem Gebiet des Familienrechtstätig. Durch Erfahrungen und ständige Fortbildungen biete ich Ihnen eine besondere Bearbeitung Ihrer familienrechtlichen Anliegen.\n\n- Jahrgang: 1973\n- Geschieden, 2 Söhne\n- Studium der Wirtschafts- und Rechtswissenschaften in Wuppertal und Gießen\n- Referendariat im Bezirk des OLG Hamm\n- Fachanwältin für Familienrecht\n\nGerade im Familienrecht treffen nüchterne rechtliche Abwägungen mit Emotionen zusammen. Neben der Bewältigung von schicksalhaften Erlebnissen müssen Lebensverhältnisse neu geregelt werden. Hierbei helfe ich Ihnen.\n\nIch lege Wert auf eine offene und vertrauensvolle Zusammenarbeit. Um Ihre rechtlichen Interessen zielführend zu erreichen, bin ich auf Ihre Zuarbeit angewiesen. Nur, wenn ich alle erforderlichen Informationen von Ihnen erhalte, kann ich in Ihrem Sinne handeln. Ich bearbeite Ihr rechtliches Anliegen sachlich, zielführend und wirtschaftlich. Wenden Sie sich an mich, wenn Sie rechtliche Unterstützung in familienrechtlichen Angelegenheiten benötigen.",
+                "en-US": "## Family Law Attorney\n# Julia Eisemann\n\nI am exclusively dedicated to family law with passion and motivation. Through experience and continuous professional development, I offer specialized handling of your family law concerns.\n\n- Born in 1973\n- Divorced, mother of two sons\n- Studied Economics and Law in Wuppertal and Gießen\n- Legal clerkship in the Higher Regional Court district of Hamm\n- Certified Specialist Attorney in Family Law\n\nFamily law is where rational legal considerations meet deep emotions. In addition to coping with life-changing events, living arrangements often need to be restructured. I am here to assist you in this process.\n\nI value open and trustworthy collaboration. To effectively safeguard your legal interests, I rely on your cooperation. Only when I receive all the necessary information from you can I act in your best interest.\n\nI handle your legal matters with objectivity, efficiency, and economic awareness. Contact me if you need legal support in family law matters."
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "metadata": {
+      "tags": [],
+      "concepts": []
+    },
+    "sys": {
+      "space": {
+        "sys": {
+          "type": "Link",
+          "linkType": "Space",
+          "id": "p0axvbayjz91"
+        }
+      },
+      "id": "4uVuDf84F6KQsil0M8ZTGD",
+      "type": "Entry",
+      "createdAt": "2025-02-10T17:18:54.234Z",
+      "updatedAt": "2025-02-10T18:02:05.758Z",
+      "environment": {
+        "sys": {
+          "id": "master",
+          "type": "Link",
+          "linkType": "Environment"
+        }
+      },
+      "publishedVersion": 7,
+      "revision": 2,
+      "contentType": {
+        "sys": {
+          "type": "Link",
+          "linkType": "ContentType",
+          "id": "webpage"
+        }
+      }
+    },
+    "fields": {
+      "title": {
+        "de": "Kanzlei",
+        "en-US": "Law Firm"
+      },
+      "slug": {
+        "en-US": "firm"
+      },
+      "contentBlocks": {
+        "en-US": [
+          {
+            "metadata": {
+              "tags": [],
+              "concepts": []
+            },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "p0axvbayjz91"
+                }
+              },
+              "id": "2KxnVz3Ciogh3SBz91wcRk",
+              "type": "Entry",
+              "createdAt": "2025-02-10T17:17:12.041Z",
+              "updatedAt": "2025-02-10T17:17:12.041Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 16,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "largeTextBlock"
+                }
+              }
+            },
+            "fields": {
+              "title": {
+                "en-US": "Kanzlei Text"
+              },
+              "text": {
+                "de": "# Die Kanzlei Eisemann\nSeit Jahren bin ich ausschließlich auf dem Gebiet des Familienrechts tätig. Mit meiner Fachkenntnis  und meiner Lebenserfahrung  setze ich mich für Ihre familienrechtlichen Anliegen ein.\n\nKaum ein anderes Rechtsgebiet greift so in den persönlichen Bereich der Betroffenen ein, wie das Familienrecht. Neben der oftmals emotional sehr belastenden Situation, tauchen tiefgreifende Fragen über die weitere Entwicklung und oftmals finanzielle Sorgen und Existenzängste auf.\n\nIn dieser Situation setze ich mich für Sie und ihr Wohlergehen ein. Dabei lege ich großen Wert auf eine vertrauensvolle Zusammenarbeit und die zielführende Durchsetzung Ihrer rechtlichen Interessen.\n\n## Ihr Vorteil:\n– Spezialisierung und ausschließliche Tätigkeit im Familienrecht.\n– Expertise in alle Bereichen des Familienrechts\n– Regelmäßige Fortbildungen im Familienrecht\n– schnelle Erstberatung, in Notfällen auch samstags\n– Einfühlungsvermögen und Verständnis für Ihre Situation\n– Solide Entscheidungshilfen für Ihre nächsten Schritte",
+                "en-US": "# Law Firm Eisemann\n\nFor years, I have been exclusively practicing in the field of family law. With my expertise and life experience, I am committed to addressing your family law concerns.\n\nFew areas of law have such a profound impact on the personal lives of those affected as family law. In addition to often emotionally challenging situations, deep-rooted questions about the future arise, along with financial worries and fears about one’s livelihood. In these moments, I advocate for you and your well-being. I place great importance on a trusting collaboration and the effective enforcement of your legal interests.\n\n## Your Advantage:\n- Specialization and exclusive focus on family law\n- Expertise in all areas of family law\n- Regular professional training in family law\n- Fast initial consultation, including emergency appointments on Saturdays\n- Empathy and understanding for your situation\n- Solid guidance for your next steps\n\nFeel free to reach out if you need legal support in family law matters."
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "metadata": {
+      "tags": [],
+      "concepts": []
+    },
+    "sys": {
+      "space": {
+        "sys": {
+          "type": "Link",
+          "linkType": "Space",
+          "id": "p0axvbayjz91"
+        }
+      },
+      "id": "7xF030ztPLmU0P0RhHjkqL",
+      "type": "Entry",
+      "createdAt": "2025-02-10T17:17:12.132Z",
+      "updatedAt": "2025-02-10T18:02:05.684Z",
+      "environment": {
+        "sys": {
+          "id": "master",
+          "type": "Link",
+          "linkType": "Environment"
+        }
+      },
+      "publishedVersion": 9,
+      "revision": 2,
+      "contentType": {
+        "sys": {
+          "type": "Link",
+          "linkType": "ContentType",
+          "id": "webpage"
+        }
+      }
+    },
+    "fields": {
+      "title": {
+        "de": "Startseite",
+        "en-US": "Homepage"
+      },
+      "slug": {
+        "en-US": "home"
+      },
+      "contentBlocks": {
+        "en-US": [
+          {
+            "metadata": {
+              "tags": [],
+              "concepts": []
+            },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "p0axvbayjz91"
+                }
+              },
+              "id": "2newUm5Fk1QPgICuGUSGVB",
+              "type": "Entry",
+              "createdAt": "2025-02-10T17:17:12.075Z",
+              "updatedAt": "2025-02-10T18:00:30.612Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 11,
+              "revision": 2,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "infoBlock"
+                }
+              }
+            },
+            "fields": {
+              "title": {
+                "en-US": "Info Office Move"
+              },
+              "text": {
+                "de": "# Ich bin umgezogen!\nDie Kanzlei befindet sich jetzt in der Hubertusallee 16, 14193 Berlin\nUnsere neue Telefonnummer lautet: +49 030 – 79 70 94 61\n",
+                "en-US": "# I have moved!\nThe law firm is now located at Hubertusallee 16, 14193 Berlin.\nOur new phone number is: +49 30 – 79 70 94 61.\n"
+              }
+            }
+          },
+          {
+            "metadata": {
+              "tags": [],
+              "concepts": []
+            },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "p0axvbayjz91"
+                }
+              },
+              "id": "7EfbaR5SkC7c77SKoMluid",
+              "type": "Entry",
+              "createdAt": "2025-02-10T17:17:11.963Z",
+              "updatedAt": "2025-02-10T17:17:11.963Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 9,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "largeTextBlock"
+                }
+              }
+            },
+            "fields": {
+              "title": {
+                "en-US": "Homepage Intro"
+              },
+              "image": {
+                "en-US": {
+                  "metadata": {
+                    "tags": [],
+                    "concepts": []
+                  },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "p0axvbayjz91"
+                      }
+                    },
+                    "id": "3uLIyFT57uhPEwaTRUzVud",
+                    "type": "Asset",
+                    "createdAt": "2025-02-10T17:16:50.517Z",
+                    "updatedAt": "2025-02-10T17:16:50.517Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 5,
+                    "revision": 1
+                  },
+                  "fields": {
+                    "title": {
+                      "en-US": "Julia Portrait"
+                    },
+                    "description": {
+                      "en-US": ""
+                    },
+                    "file": {
+                      "en-US": {
+                        "url": "//images.ctfassets.net/p0axvbayjz91/3uLIyFT57uhPEwaTRUzVud/a41d8ddd11c43019ea6ec426336c34e1/fachanwaeltin-fuer-familienrecht-eisemann.jpg",
+                        "details": {
+                          "size": 36345,
+                          "image": {
+                            "width": 600,
+                            "height": 873
+                          }
+                        },
+                        "fileName": "fachanwaeltin-fuer-familienrecht-eisemann.jpg",
+                        "contentType": "image/jpeg"
+                      }
+                    }
+                  }
+                }
+              },
+              "text": {
+                "de": "# Mit Passion und Motivation\n\nIch bin mit Passion und Motivation ausschließlich auf dem Gebiet des Familienrechts tätig. Durch Erfahrungen und ständige Fortbildungen biete ich Ihnen eine besondere Bearbeitung Ihrer familienrechtlichen Anliegen.\n\nGerade im Familienrecht treffen nüchterne rechtliche Abwägungen mit Emotionen zusammen. Neben der Bewältigung von schicksalhaften Erlebnissen müssen Lebensverhältnisse neu geregelt werden. Hierbei helfe ich Ihnen.\n\nIch lege Wert auf eine offene und vertrauensvolle Zusammenarbeit. Um Ihre rechtlichen Interessen zielführend zu erreichen, bin ich auf Ihre Zuarbeit angewiesen. Nur, wenn ich alle erforderlichen Informationen von Ihnen erhalte, kann ich in Ihrem Sinne handeln. Ich bearbeite Ihr rechtliches Anliegen sachlich, zielführend und wirtschaftlich. Wenden Sie sich an mich, wenn Sie rechtliche Unterstützung in familienrechtlichen Angelegenheiten benötigen.",
+                "en-US": "# With Passion and Dedication\n\nI am exclusively dedicated to family law with passion and motivation. Through experience and continuous professional development, I offer you specialized handling of your family law concerns.\n\nFamily law is where rational legal considerations meet deep emotions. In addition to coping with life-changing events, living arrangements often need to be restructured. I am here to assist you in this process.\n\nI value open and trustworthy collaboration. To effectively safeguard your legal interests, I rely on your cooperation. Only when I receive all the necessary information from you can I act in your best interest.\n\nI handle your legal matters with objectivity, efficiency, and economic awareness. Contact me if you need legal support in family law matters."
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+]

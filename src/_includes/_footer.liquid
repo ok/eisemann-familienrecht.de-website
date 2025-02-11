@@ -1,0 +1,25 @@
+    <footer class="footer">
+      <div class="columns">
+        <div class="column is-narrow has-text-centered-mobile">
+          <p class="title">Links</p>
+          <ul>
+          {%- for item in navigation.nav_items %}
+            {%- if item.header %}
+            <li>
+              <a href="/{{ item.url }}" class="navbar-item is-size-6">{{ item.title }}</a>
+            </li>
+            {%- endif %}
+          {%- endfor %}
+          </ul>  
+        </div>
+        <div class="column has-text-left has-text-centered-mobile">
+          <p class="title">Kontakt</p>
+          <a href="{{ site.instaUrl }}" target="_blank" class="icon mr-2" aria-label="Connect with Eisemann Familienrechtskanzlei on Instagram">
+            {% include "svg/instagram.svg" %}
+          </a>
+          <a href="{{ site.linkedinUrl }}" target="_blank" class="icon" aria-label="Connect with Eisemann Familienrechtskanzlei on LinkedIn">
+            {% include "svg/linkedin-in.svg" %}
+          </a>
+        </div>
+      </div>
+    </footer>
