@@ -5,15 +5,17 @@
     <main class="content main">
       {% assign infoBlock = page-home.content | where: "type", "infoBlock" | first %}
       {% if infoBlock %}
-      <section class="info-block">
+      <section class="section">
         {{ infoBlock.text[site.locale]| markdown }}
       </section>
       {% endif %}
-      <section class="large-text-block">
+      <section class="section">
         {% assign largeTextBlock = page-home.content | where: "type", "largeTextBlock" | first %}
         {{ largeTextBlock.text[site.locale] | markdown }}
         <img src="{{ largeTextBlock.image }}" alt="Large text block image">
       </section>
-      {% include "_services.liquid" %}
+      <section class="section">
+        {% include "_services.liquid" %}
+      </section>
 
     </main>

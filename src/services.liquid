@@ -1,15 +1,9 @@
 ---
   layout: base.liquid
   title: Website template
-  pagination:
-    data: services
-    size: 1
-    alias: service
-  permalink: "services/{{ service.title[site.locale] | slugify }}.html"
-
 ---
   <main class="content main">
-    <div class="content">
-        {{ service.description[site.locale] | markdown }}
-    </div>
+    <section class="section">
+      {% include "_services.liquid" %}
+    </section>
   </main>

@@ -4,7 +4,7 @@
 ---
     <main class="content main">
       {% assign largeTextBlock = page-firm.content | where: "type", "largeTextBlock" | first %}
-      <section class="large-text-block">
+      <section class="section">
         {{ largeTextBlock.text[site.locale] | markdown }}
         {%- if largeTextBlock.image %}
           <img src="{{ largeTextBlock.image }}" alt="Large text block image">
