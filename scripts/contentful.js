@@ -116,7 +116,6 @@ async function main() {
   await storeContent(contact, "cf-contact");
   const filteredContact = processContact(contact[0]);
   await storeContent(filteredContact, "contact");
-  console.log("contact: " + filteredContact)
 }
 
 main();

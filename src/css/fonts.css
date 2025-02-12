@@ -1,31 +1,128 @@
 @font-face {
-  font-family: 'futura_bold';
-  src: url('../fonts/futura-bold-webfont.woff2') format('woff2'),
-       url('../fonts/futura-bold-webfont.woff') format('woff');
-  font-weight: normal;
+  font-family: 'Sofia Pro';
+  src: url('/fonts/Sofia_Pro_Black_Az.otf') format('opentype');
+  font-weight: 900;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
-  font-family: 'futura_book';
-  src: url('../fonts/futura-book-webfont.woff2') format('woff2'),
-       url('../fonts/futura-book-webfont.woff') format('woff');
-  font-weight: bolder;
-  font-style: normal;
-  font-display: swap;
+  font-family: 'Sofia Pro';
+  src: url('/fonts/Sofia_Pro_Black_Italic_Az.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
 }
 
 @font-face {
-  font-family: 'futura_light';
-  src: url('../fonts/futurabt-light-webfont.woff2') format('woff2'),
-       url('../fonts/futurabt-light-webfont.woff') format('woff');
-  font-weight: normal;
+  font-family: 'Sofia Pro';
+  src: url('/fonts/Sofia_Pro_Bold_Az.otf') format('opentype');
+  font-weight: 700;
   font-style: normal;
-  font-display: swap;
 }
 
-/* Override Bulma default font */
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('/fonts/Sofia_Pro_Bold_Italic_Az.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('/fonts/Sofia_Pro_ExtraLight_Az.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('/fonts/Sofia_Pro_ExtraLight_Italic_Az.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('/fonts/Sofia_Pro_Light_Az.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('/fonts/Sofia_Pro_Light_Italic_Az.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('/fonts/Sofia_Pro_Medium_Az.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('/fonts/Sofia_Pro_Medium_Italic_Az.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('/fonts/Sofia_Pro_Regular_Az.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('/fonts/Sofia_Pro_Regular_Italic_Az.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('/fonts/Sofia_Pro_Semi_Bold_Az.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('/fonts/Sofia_Pro_Semi_Bold_Italic_Az.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('/fonts/Sofia_Pro_UltraLight_Az.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('/fonts/Sofia_Pro_UltraLight_Italic_Az.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+/* Global font settings */
 html, body {
-  font-family: 'futura_book', sans-serif !important;
+  font-family: 'Sofia Pro', sans-serif;
+  font-size: 20px;
 }
+
+/* Utility classes for easy styling */
+.font-thin { font-weight: 100; }
+.font-extralight { font-weight: 200; }
+.font-light { font-weight: 300; }
+.font-regular { font-weight: 400; }
+.font-medium { font-weight: 500; }
+.font-semibold { font-weight: 600; }
+.font-bold { font-weight: 700; }
+.font-black { font-weight: 900; }
+.italic { font-style: italic; }

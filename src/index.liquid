@@ -6,8 +6,11 @@
       {% assign infoBlock = page-home.content | where: "type", "infoBlock" | first %}
       {% if infoBlock %}
       <section class="section">
-        {{ infoBlock.text[site.locale]| markdown }}
-      </section>
+        <article class="message is-primary">
+          <div class="message-body">
+            {{ infoBlock.text[site.locale]| markdown }}
+          </div>
+        </article>      </section>
       {% endif %}
       <section class="section">
         {% assign largeTextBlock = page-home.content | where: "type", "largeTextBlock" | first %}

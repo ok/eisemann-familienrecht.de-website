@@ -335,7 +335,7 @@
               "id": "2newUm5Fk1QPgICuGUSGVB",
               "type": "Entry",
               "createdAt": "2025-02-10T17:17:12.075Z",
-              "updatedAt": "2025-02-10T18:00:30.612Z",
+              "updatedAt": "2025-02-12T18:44:02.303Z",
               "environment": {
                 "sys": {
                   "id": "master",
@@ -343,8 +343,8 @@
                   "linkType": "Environment"
                 }
               },
-              "publishedVersion": 11,
-              "revision": 2,
+              "publishedVersion": 28,
+              "revision": 4,
               "contentType": {
                 "sys": {
                   "type": "Link",
@@ -358,8 +358,8 @@
                 "en-US": "Info Office Move"
               },
               "text": {
-                "de": "# Ich bin umgezogen!\nDie Kanzlei befindet sich jetzt in der Hubertusallee 16, 14193 Berlin\nUnsere neue Telefonnummer lautet: +49 030 – 79 70 94 61\n",
-                "en-US": "# I have moved!\nThe law firm is now located at Hubertusallee 16, 14193 Berlin.\nOur new phone number is: +49 30 – 79 70 94 61.\n"
+                "de": "Ich bin umgezogen und die Kanzlei befindet sich jetzt in der\nHubertusallee 16, 14193 Berlin\nTelnr: +49 30 – 79 70 94 61\n",
+                "en-US": "I have moved and the law firm is now located at\nHubertusallee 16, 14193 Berlin\nPhone: +49 30 – 79 70 94 61.\n"
               }
             }
           },

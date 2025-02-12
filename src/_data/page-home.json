@@ -11,8 +11,8 @@
       },
       "type": "infoBlock",
       "text": {
-        "de": "# Ich bin umgezogen!\nDie Kanzlei befindet sich jetzt in der Hubertusallee 16, 14193 Berlin\nUnsere neue Telefonnummer lautet: +49 030 – 79 70 94 61\n",
-        "en-US": "# I have moved!\nThe law firm is now located at Hubertusallee 16, 14193 Berlin.\nOur new phone number is: +49 30 – 79 70 94 61.\n"
+        "de": "Ich bin umgezogen und die Kanzlei befindet sich jetzt in der\nHubertusallee 16, 14193 Berlin\nTelnr: +49 30 – 79 70 94 61\n",
+        "en-US": "I have moved and the law firm is now located at\nHubertusallee 16, 14193 Berlin\nPhone: +49 30 – 79 70 94 61.\n"
       }
     },
     {

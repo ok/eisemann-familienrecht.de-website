@@ -57,6 +57,8 @@ div.canvas{
 
 .footer p.title {
   color: var(--eise_secondary_color);
+  font-weight: 300;
+  font-style: normal;
 }
 
 .footer a {
@@ -74,8 +76,23 @@ div.canvas{
   border-radius: 0px;
 }
 
+.card p.title {
+  font-weight: 300;
+  font-style: normal;
+}
+
 .card-header {
   box-shadow: none;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  font-weight: 300;
+  font-style: normal;
 }
 
 @media only screen and (width >= 1024px) {
