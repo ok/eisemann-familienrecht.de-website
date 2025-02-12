@@ -70,6 +70,13 @@ div.canvas{
   padding-right: 2rem;
 }
 
+.button,
+.box,
+.field {
+  box-shadow: none;
+  border-radius: 0px;
+}
+
 .card {
   background-color: rgb(255, 255, 255);
   box-shadow: none;
@@ -97,6 +104,6 @@ div.canvas{
 
 @media only screen and (width >= 1024px) {
   .main {
-    padding: 2rem 10rem;
+    padding: 2rem 4rem;
   }
 }

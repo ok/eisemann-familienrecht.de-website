@@ -10,6 +10,13 @@
 ---
   <main class="content main">
     <div class="content">
-        {{ service.description[site.locale] | markdown }}
+      <div class="columns">
+        <div class="column is-8">
+          {{ service.description[site.locale] | markdown }}          
+        </div>
+        <div class="column is-4">
+          {% include "_contact.liquid" %}
+        </div>
+      </div>
     </div>
   </main>

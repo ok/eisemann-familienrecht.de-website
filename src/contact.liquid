@@ -10,14 +10,6 @@
         {%- if largeTextBlock.image %}
           <img src="{{ largeTextBlock.image }}" alt="Large text block image">
         {% endif %}
-        <div class="column has-text-left">
-          <ul>
-            <li>{{ contact.name }}</li>
-            <li>{{ contact.street }}</li>
-            <li>{{ contact.plz }} {{ contact.city }}</li>
-            <li>{{ contact.phone }}</li>
-            <li>{{ contact.email }}</li>
-          </ul>
-        </div>
+        {% include "_contact_form.liquid" %}
       </section>
     </main>
