@@ -44,6 +44,11 @@ div.canvas{
   color: var(--eise_dark_color);
 }
 
+.section {
+  padding: 1.5rem 0rem;
+  color: var(--eise_dark_color);
+}
+
 .footer {
   background-color: var(--eise_dark_color);
   color: var(--eise_lightgrey_color);
