@@ -1,9 +1,6 @@
 ---
   layout: base.liquid
   title: Website template
-  pagination:
-    data: page-home
-    size: 1
 ---
     <main class="content main">
       {% assign infoBlock = page-home.content | where: "type", "infoBlock" | first %}

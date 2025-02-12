@@ -1,9 +1,6 @@
 ---
   layout: base.liquid
   title: Website template
-  pagination:
-    data: page-firm
-    size: 1
 ---
     <main class="content main">
       {% assign largeTextBlock = page-firm.content | where: "type", "largeTextBlock" | first %}

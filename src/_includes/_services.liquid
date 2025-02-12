@@ -4,6 +4,7 @@
           <div class="fixed-grid has-1-cols has-2-cols-tablet has-3-cols-desktop">
             <div class="grid is-gap-3">
             {%- for service in services %}
+              <a href="/services/{{ service.title[site.locale] | slugify }}">
               <div class="cell">
                 <div class="card">
                   <div class="card-header">
@@ -16,6 +17,7 @@
                   </div>
                 </div>
               </div>
+              </a>
             {%- endfor  %}
             </div>
           </div>

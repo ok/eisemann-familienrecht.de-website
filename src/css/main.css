@@ -16,27 +16,17 @@ div.canvas{
   padding: 0px;
   margin: 0px;
   background-color: var(--eise_secondary_color);
-}
-
-@media only screen and (max-width: 750px) {
-  div.canvas {
-      margin: 0 auto;
-      padding: 0px;
-      box-shadow: 0;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .navbar-menu {
-    box-shadow: none;
-    border: 1px;
-    border-color: var(--eise_dark_color);
-    padding-top: 20px;
-  }
+  /* max-width: 1280px; */
 }
 
 .navbar {
   background-color: var(--eise_secondary_color);
+}
+
+.navbar-menu {
+  background-color: var(--eise_secondary_color);
+  box-shadow: none;
+  padding-top: 20px;
 }
 
 .navbar-brand img {
@@ -50,8 +40,8 @@ div.canvas{
 }
 
 .main {
-  color: var(--eise_dark_color);
   padding: 2rem;
+  color: var(--eise_dark_color);
 }
 
 .footer {
@@ -81,4 +71,10 @@ div.canvas{
 
 .card-header {
   box-shadow: none;
+}
+
+@media only screen and (width >= 1024px) {
+  .main {
+    padding: 2rem 10rem;
+  }
 }
