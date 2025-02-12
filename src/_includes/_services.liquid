@@ -1,0 +1,25 @@
+    <section class="section">
+      <div class="container fixed-grid has-2-cols has-1-cols-mobile">
+        <h2 class="title has-text-centered">Leistungen der Kanzlei</h2>
+          <div class="fixed-grid has-1-cols has-2-cols-tablet has-3-cols-desktop">
+            <div class="grid is-gap-3">
+            {%- for service in services %}
+              <div class="cell">
+                <div class="card">
+                  <div class="card-header">
+                    <p class="card-header-title is-centered title is-4">{{ service.title[site.locale] }}</p>
+                  </div>
+                  <div class="card-content">
+                    <div class="content">
+                      {{ service.summary[site.locale] }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {%- endfor  %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+

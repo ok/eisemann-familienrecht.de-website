@@ -8,11 +8,14 @@
   --bulma-primary: var(--eise_brand_color);
   --bulma-body-color: var(--eise_dark_color);
   --bulma-navbar-burger-color: var(--eise_dark_color);
+
+  --bulma-card-radius: 0;
 }
 
 div.canvas{
   padding: 0px;
   margin: 0px;
+  background-color: var(--eise_secondary_color);
 }
 
 @media only screen and (max-width: 750px) {
@@ -30,6 +33,10 @@ div.canvas{
     border-color: var(--eise_dark_color);
     padding-top: 20px;
   }
+}
+
+.navbar {
+  background-color: var(--eise_secondary_color);
 }
 
 .navbar-brand img {
@@ -64,4 +71,14 @@ div.canvas{
 .footer img {
   max-height: 3rem !important;
   padding-right: 2rem;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  box-shadow: none;
+  border-radius: 0px;
+}
+
+.card-header {
+  box-shadow: none;
 }

@@ -1,7 +1,6 @@
 ---
   layout: base.liquid
   title: Website template
-  locale: "de"
   pagination:
     data: page-home
     size: 1
@@ -10,12 +9,14 @@
       {% assign infoBlock = page-home.content | where: "type", "infoBlock" | first %}
       {% if infoBlock %}
       <section class="info-block">
-        {{ infoBlock.text.de | markdown }}
+        {{ infoBlock.text[site.locale]| markdown }}
       </section>
       {% endif %}
       <section class="large-text-block">
         {% assign largeTextBlock = page-home.content | where: "type", "largeTextBlock" | first %}
-        {{ largeTextBlock.text.de | markdown }}
+        {{ largeTextBlock.text[site.locale] | markdown }}
         <img src="{{ largeTextBlock.image }}" alt="Large text block image">
       </section>
+      {% include "_services.liquid" %}
+
     </main>

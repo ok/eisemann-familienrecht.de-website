@@ -55,7 +55,7 @@ function processPages(pages) {
   console.log(`✅ Processing all page content!`);
   const filteredPages = pages.map(function(page) {
     // console.log(page);
-    let filteredPage= {
+    let filteredPage = {
       title: page.fields.title,
       slug: page.fields.slug["en-US"],
       content: []
@@ -83,6 +83,21 @@ function processContact(contact) {
   }, {});
 };
 
+// Post processing for all collections
+function processServices(services) {
+  console.log(`✅ Processing all services content!`);
+  const filteredServices = services.map(function(entry) {
+    // console.log(Service);
+    let service = {
+      title: entry.fields.title,
+      summary: entry.fields.summary,
+      description: entry.fields.description
+    };
+    return service;
+  });
+  return filteredServices;
+};
+
 async function main() {
   const pages = await fetchContent("webpage");
   await storeContent(pages, "cf-webpage");
@@ -92,6 +107,10 @@ async function main() {
     await storeContent(page, "page-" + page.slug);
   })
   // console.log("web pages: " + JSON.strigify(filteredPages));
+  
+  const services = await fetchContent("service");
+  const filteredServices = processServices(services);
+  await storeContent(filteredServices, "services");
   
   const contact = await fetchContent("contactBlock");
   await storeContent(contact, "cf-contact");

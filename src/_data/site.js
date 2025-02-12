@@ -13,4 +13,6 @@ export default {
   facebookUrl: "",
   linkedinUrl: "",
   email: "",
+  locales: ["de", "en-US"], // List of supported locales
+  locale: "de" // Default language
 };
