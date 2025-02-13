@@ -14,8 +14,14 @@
       {% endif %}
       <section class="section">
         {% assign largeTextBlock = page-home.content | where: "type", "largeTextBlock" | first %}
-        {{ largeTextBlock.text[site.locale] | markdown }}
-        <img src="{{ largeTextBlock.image }}" alt="Large text block image">
+        <div class="columns is-flex-direction-row">
+          <div class="column is-8">
+            {{ largeTextBlock.text[site.locale] | markdown }}
+          </div>
+          <div class="column is-4">
+            <img src="{{ largeTextBlock.image }}" alt="Large text block image">
+          </div>
+        </div>
       </section>
       <section class="section">
         {% include "_services.liquid" %}

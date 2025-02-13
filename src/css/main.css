@@ -30,7 +30,7 @@ div.canvas{
 }
 
 .navbar-brand img {
-  max-height: 3rem !important; /* Adjust to match navbar height */
+  max-height: 2rem !important; /* Adjust to match navbar height */
   padding-right: 2rem;
 }
 
@@ -41,6 +41,7 @@ div.canvas{
 
 .main {
   padding: 2rem;
+  padding-top: 0rem;
   color: var(--eise_dark_color);
 }
 
@@ -105,5 +106,18 @@ div.canvas{
 @media only screen and (width >= 1024px) {
   .main {
     padding: 2rem 4rem;
+    padding-top: 0rem;
   }
+  .navbar-brand img {
+    max-height: 3rem !important; /* Adjust to match navbar height */
+    padding-right: 2rem;
+  }
+}
+
+/* page specific styling */
+
+section.about img {
+  float: right;
+  width: 30%; /* Adjust size */
+  margin: 2rem; /* Space between image and text */
 }

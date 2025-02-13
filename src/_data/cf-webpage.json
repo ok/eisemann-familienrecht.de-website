@@ -151,7 +151,7 @@
               "id": "4HYBNGt4Fuw1Bv5Ct60gPx",
               "type": "Entry",
               "createdAt": "2025-02-10T17:17:12.024Z",
-              "updatedAt": "2025-02-11T21:33:30.595Z",
+              "updatedAt": "2025-02-12T23:58:38.709Z",
               "environment": {
                 "sys": {
                   "id": "master",
@@ -159,8 +159,8 @@
                   "linkType": "Environment"
                 }
               },
-              "publishedVersion": 25,
-              "revision": 5,
+              "publishedVersion": 28,
+              "revision": 6,
               "contentType": {
                 "sys": {
                   "type": "Link",
@@ -174,8 +174,8 @@
                 "en-US": "Über Mich Text"
               },
               "text": {
-                "de": "## Anwältin für Familienrecht\n# Julia Eisemann\nIch bin mit Passion und Motivation ausschließlich auf dem Gebiet des Familienrechtstätig. Durch Erfahrungen und ständige Fortbildungen biete ich Ihnen eine besondere Bearbeitung Ihrer familienrechtlichen Anliegen.\n\n- Jahrgang: 1973\n- Geschieden, 2 Söhne\n- Studium der Wirtschafts- und Rechtswissenschaften in Wuppertal und Gießen\n- Referendariat im Bezirk des OLG Hamm\n- Fachanwältin für Familienrecht\n\n![Julia Portait 2](//images.ctfassets.net/p0axvbayjz91/2uF7o9x6z5jMx5ypfbWTl8/958f59340354337e2ddf33b07b6f5f2c/IMG_6462_b-2636-scaled-qlomamatyxbj7pkcsiydypukne72qdibzrtykji8o0.jpg)\n\nGerade im Familienrecht treffen nüchterne rechtliche Abwägungen mit Emotionen zusammen. Neben der Bewältigung von schicksalhaften Erlebnissen müssen Lebensverhältnisse neu geregelt werden. Hierbei helfe ich Ihnen.\n\nIch lege Wert auf eine offene und vertrauensvolle Zusammenarbeit. Um Ihre rechtlichen Interessen zielführend zu erreichen, bin ich auf Ihre Zuarbeit angewiesen. Nur, wenn ich alle erforderlichen Informationen von Ihnen erhalte, kann ich in Ihrem Sinne handeln. Ich bearbeite Ihr rechtliches Anliegen sachlich, zielführend und wirtschaftlich. Wenden Sie sich an mich, wenn Sie rechtliche Unterstützung in familienrechtlichen Angelegenheiten benötigen.",
-                "en-US": "## Family Law Attorney\n# Julia Eisemann\n\nI am exclusively dedicated to family law with passion and motivation. Through experience and continuous professional development, I offer specialized handling of your family law concerns.\n\n- Born in 1973\n- Divorced, mother of two sons\n- Studied Economics and Law in Wuppertal and Gießen\n- Legal clerkship in the Higher Regional Court district of Hamm\n- Certified Specialist Attorney in Family Law\n\n![Julia Portait 2](//images.ctfassets.net/p0axvbayjz91/2uF7o9x6z5jMx5ypfbWTl8/958f59340354337e2ddf33b07b6f5f2c/IMG_6462_b-2636-scaled-qlomamatyxbj7pkcsiydypukne72qdibzrtykji8o0.jpg)\n\nFamily law is where rational legal considerations meet deep emotions. In addition to coping with life-changing events, living arrangements often need to be restructured. I am here to assist you in this process.\n\nI value open and trustworthy collaboration. To effectively safeguard your legal interests, I rely on your cooperation. Only when I receive all the necessary information from you can I act in your best interest.\n\nI handle your legal matters with objectivity, efficiency, and economic awareness. Contact me if you need legal support in family law matters."
+                "de": "## Anwältin für Familienrecht\n# Julia Eisemann\nIch bin mit Passion und Motivation ausschließlich auf dem Gebiet des Familienrechtstätig. Durch Erfahrungen und ständige Fortbildungen biete ich Ihnen eine besondere Bearbeitung Ihrer familienrechtlichen Anliegen.\n\n![Julia Portait 2](//images.ctfassets.net/p0axvbayjz91/2uF7o9x6z5jMx5ypfbWTl8/958f59340354337e2ddf33b07b6f5f2c/IMG_6462_b-2636-scaled-qlomamatyxbj7pkcsiydypukne72qdibzrtykji8o0.jpg)\n\n- Jahrgang: 1973\n- Geschieden, 2 Söhne\n- Studium der Wirtschafts- und Rechtswissenschaften in Wuppertal und Gießen\n- Referendariat im Bezirk des OLG Hamm\n- Fachanwältin für Familienrecht\n\nGerade im Familienrecht treffen nüchterne rechtliche Abwägungen mit Emotionen zusammen. Neben der Bewältigung von schicksalhaften Erlebnissen müssen Lebensverhältnisse neu geregelt werden. Hierbei helfe ich Ihnen.\n\nIch lege Wert auf eine offene und vertrauensvolle Zusammenarbeit. Um Ihre rechtlichen Interessen zielführend zu erreichen, bin ich auf Ihre Zuarbeit angewiesen. Nur, wenn ich alle erforderlichen Informationen von Ihnen erhalte, kann ich in Ihrem Sinne handeln. Ich bearbeite Ihr rechtliches Anliegen sachlich, zielführend und wirtschaftlich. Wenden Sie sich an mich, wenn Sie rechtliche Unterstützung in familienrechtlichen Angelegenheiten benötigen.",
+                "en-US": "## Family Law Attorney\n# Julia Eisemann\n\nI am exclusively dedicated to family law with passion and motivation. Through experience and continuous professional development, I offer specialized handling of your family law concerns.\n\n![Julia Portait 2](//images.ctfassets.net/p0axvbayjz91/2uF7o9x6z5jMx5ypfbWTl8/958f59340354337e2ddf33b07b6f5f2c/IMG_6462_b-2636-scaled-qlomamatyxbj7pkcsiydypukne72qdibzrtykji8o0.jpg)\n\n- Born in 1973\n- Divorced, mother of two sons\n- Studied Economics and Law in Wuppertal and Gießen\n- Legal clerkship in the Higher Regional Court district of Hamm\n- Certified Specialist Attorney in Family Law\n\nFamily law is where rational legal considerations meet deep emotions. In addition to coping with life-changing events, living arrangements often need to be restructured. I am here to assist you in this process.\n\nI value open and trustworthy collaboration. To effectively safeguard your legal interests, I rely on your cooperation. Only when I receive all the necessary information from you can I act in your best interest.\n\nI handle your legal matters with objectivity, efficiency, and economic awareness. Contact me if you need legal support in family law matters."
               }
             }
           }
