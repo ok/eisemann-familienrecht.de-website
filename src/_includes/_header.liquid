@@ -21,6 +21,9 @@
             <a href="/{{ item.url }}" class="navbar-item is-size-">{{ item.title }}</a>
             {%- endif %}
           {%- endfor %}
+          {%- if site.environment == "development" %}
+            <a href="/debug" class="navbar-item is-size-6">[debug]</a>
+          {%- endif %}
           </div>
         </div>
       </nav>

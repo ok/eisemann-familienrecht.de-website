@@ -5,11 +5,15 @@
 ---
     <main class="content main">
       {% assign largeTextBlock = page-contact.content | where: "type", "largeTextBlock" | first %}
-      <section class="section">
-        {{ largeTextBlock.text[site.locale] | markdown }}
-        {%- if largeTextBlock.image %}
-          <img src="{{ largeTextBlock.image }}" alt="Large text block image">
-        {% endif %}
-        {% include "_contact_form.liquid" %}
+      <section class="section content">
+        <p class="title">{{ largeTextBlock.text[site.locale] | markdown }}</p>
+        <div class="columns pt-5">
+          <div class="column is-8">
+            {% include "_contact_form.liquid" %}
+          </div>
+          <div class="column is-4">
+            {% include "_contact.liquid" %}
+          </div>
+        </div>
       </section>
     </main>

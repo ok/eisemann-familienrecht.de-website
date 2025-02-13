@@ -29,12 +29,6 @@
       "url": "contact",
       "header": true,
       "type": "page"
-    },
-    {
-      "title": "Debug",
-      "url": "debug",
-      "header": true,
-      "type": "page"
     }
   ]
 }

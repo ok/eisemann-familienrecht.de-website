@@ -82,6 +82,7 @@ div.canvas{
   background-color: rgb(255, 255, 255);
   box-shadow: none;
   border-radius: 0px;
+  height: 100%;
 }
 
 .card p.title {
@@ -91,6 +92,7 @@ div.canvas{
 
 .card-header {
   box-shadow: none;
+  border-bottom: 1px #000000;
 }
 
 .content h1,
